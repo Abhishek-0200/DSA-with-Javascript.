@@ -13,7 +13,6 @@ var isValid = function(s) {
     if(s[i] === "(" || s[i] === "[" || s[i] === "{")
      {
         pushArr.push(s[i])
-
      }
      else
      {
