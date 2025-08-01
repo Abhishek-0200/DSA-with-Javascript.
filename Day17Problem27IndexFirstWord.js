@@ -34,3 +34,32 @@ var strStr = function(haystack, needle) {
 };
 
 console.log(strStr("aaaaa","a"));
+
+
+
+
+// /**
+//  * @param {number[]} nums
+//  * @return {number}
+//  */
+// var longestSubarray = function(nums) {
+//    let max = Math.max(...nums);
+//    let maximumLength = 0;
+//    for(let i =0;i<nums.length;i++)
+//    {
+//     if(nums[i] < max) continue;
+
+//     if(nums[i] === max)
+//     {
+//         let j = i;
+//         while(nums[j] === max && j < nums.length)
+//         {
+//             j++;
+//             if(maximumLength < (j-i))
+//               maximumLength = j-i;
+//         }
+
+//     }
+//    }
+//    return maximumLength;
+// };
